@@ -1,0 +1,34 @@
+{
+    "name": "TriggerExplode",
+    "maps": [
+        {
+            "name": "Keyboard",
+            "id": "d6a87791-7241-475c-82b8-75bb9a366c76",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "1e8afb82-2b3b-47ae-89e6-3ce030b324d3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7e2b7cb6-be6a-4beb-a01a-73e4bb2024dd",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
