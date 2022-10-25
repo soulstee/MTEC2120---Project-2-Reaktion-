@@ -434,9 +434,9 @@ ParticleSystem:
         m_RotationOrder: 4
     startSpeed:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
-      minScalar: 5
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5016,7 +5016,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494835049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.02, y: 11.29, z: 0.5}
+  m_LocalPosition: {x: 4.02, y: 11.29, z: -6.1}
   m_LocalScale: {x: 0.57796, y: 1, z: 0.64284265}
   m_ConstrainProportionsScale: 0
   m_Children:
