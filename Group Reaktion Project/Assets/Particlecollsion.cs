@@ -10,6 +10,8 @@ public class Particlecollsion : MonoBehaviour
 {
     
     public GameObject Particle;
+
+    public Color color;
     
     private Raincontrol control;
 
@@ -78,7 +80,7 @@ public class Particlecollsion : MonoBehaviour
        Particle.GetComponent<ParticleSystem>().emissionRate = 1000;
         Particle.GetComponent<ParticleSystem>().startSpeed = 30;
         ParticleSystem.MainModule main = ps.main;
-        main.startColor = UnityEngine.Random.ColorHSV(0f, 1f, 0f, 1f, 0.5f, 1f, 1f, 1f);
-        
+        color = UnityEngine.Random.ColorHSV(0f, 1f, 0f, 1f, 0.5f, 1f, 1f, 1f);
+        main.startColor = color;
     }
 }
